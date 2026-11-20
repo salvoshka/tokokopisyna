@@ -3619,7 +3619,7 @@
 
       document.getElementById('whatsappOrderBtn').addEventListener('click', () => {
         const text = buildOrderSummaryText();
-        const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
+        const url = `https://wa.me/+6285607425799?text=${encodeURIComponent(text)}`;
         window.open(url, '_blank', 'noopener,noreferrer');
         showToast('Membuka ringkasan pesanan untuk WhatsApp...');
       });
